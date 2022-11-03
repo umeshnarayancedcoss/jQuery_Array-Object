@@ -143,7 +143,64 @@ body{
 	border-radius: 5px;
 	border: 1px solid #cccccc; 
 }
-
+/* css for cart table td */
 td{
 	text-align: center;
+	font-size: 17px;
+}
+/* for 'Empty Cart Button' */
+.empty_cart{
+	height:35px;
+	width:100px;
+	background-color: red;
+	color:white;
+	font-size: 15px;
+	border-radius: 5px;
+}
+/* For Remove Button */
+.remove{
+	height:35px;
+	width:100px;
+	background-color: blueviolet;
+	color:white;
+	font-size: 15px;
+	border-radius: 5px;
+}
+/* for cart table heading */
+th{
+	font-size: 18px;
+}
+/* for increase counter */
+.increase{
+	height:34px;
+	width:40px;
+	background-color: aqua;
+	color:#000000;
+	font-weight: bold;
+	font-size: 21px;
+	border-radius: 40%;
+	border: none;
+}
+/* for decrease counter */
+.decrease{
+	height:34px;
+	width:40px;
+	background-color: red;
+	color:white;
+	font-weight: bold;
+	font-size: 21px;
+	border-radius: 40%;
+	border: none;
+}
+/* for cart quantity shown */
+.number{
+	height:34px;
+	width:40px;
+	margin-left: 3px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+/* for grandtotal amount of cart */
+#total{
+	color:darkgreen;
 }

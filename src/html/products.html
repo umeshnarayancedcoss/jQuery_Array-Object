@@ -4,10 +4,13 @@
 	<title>
 		Products
 	</title>
+	<!-- linking jQuery file -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- Linking CSS file -->
 	<link href="style.css" type="text/css" rel="stylesheet">
 </head>
-<body>
+<!-- on body load it will execute display function -->
+<body onload="display()"> 
 	<div id="header">
 		<h1 id="logo">Logo</h1>
 		<nav>
@@ -18,19 +21,16 @@
 			</ul>
 		</nav>
 	</div>
-
 	<div id="main">
+		<!-- showing products dyanamically -->
 		<div id="products">
-			
 		</div>
 	</div>
 	<br>
-	<h3>Cart Detail:</h3>
-<table border="1px solid black" id="table">
-
-	
+	<!-- Showing cart tbale--- -->
+<table border="1px solid black" id="table">	
 </table>
-
+<p id="total"></p>
 	<div id="footer">
 		<nav>
 			<ul id="footer-links">
@@ -40,5 +40,6 @@
 		</nav>
 	</div>
 </body>
+<!-- Linking script file -->
 <script src="./products.js"></script>
 </html>
